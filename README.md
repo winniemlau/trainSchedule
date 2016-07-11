@@ -1,6 +1,8 @@
 #Week 7 Assignment
 ##Train Scheduler
 
+![alt tag](https://github.com/winniemlau/trainSchedule/blob/master/assets/images/screenshot.jpg)
+
 ###Objectives
 
 * Create a Firebase backed train schedule application
@@ -18,4 +20,4 @@
 
 ###Deployed App
 
-Heroku:
+Heroku: http://trainscheduler.herokuapp.com
