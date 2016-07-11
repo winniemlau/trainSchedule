@@ -2,8 +2,41 @@ body {
 	font-size: 16px;
 	line-height: 34px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url(../images/trainsun.jpg);
+  background-size: cover;
+	overflow: hidden;
+	color: white
 }
 
 h1, h3 {
+   -webkit-text-stroke: 1px #fbc886;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.row {
+	margin-top: -45px;
+}
+
+.panel-primary{
+	background-color: rgba(0,0,0,.5);
+}
+
+.panel-primary >.panel-heading {
+	background-color: #3d6e8e;
+}
+
+button{
+	background-color: # #3d6e8e;
+}
+
+#trainTable tr:hover td {
+background-color: transparent;
 }
